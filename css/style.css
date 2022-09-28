@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+/*GERAIS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century Gothic;
+    font-size: 100%;
+    text-decoration: none;
+    list-style: none;
+    transition: .3s;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: #f0f0f0;
+}
+
+a.button {
+    color: #f0f0f0;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+a.button:hover {
+    color: #21F5A8;
+}
+
+h1 {
+    font-size: 25pt;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #0f0f0f;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    background-color: #21F5A8;
+}
+
+/*HEADER*/
+
+#header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #0f0f0f;
+    color: #f0f0f0;
+    z-index: 10000;
+}
+
+i {
+    color: #21F5A8;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+    color: #f0f0f0;
+}
+
+#header h1:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    color: #21F5A8;
+}
+
+#nav ul {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    color: #f0f0f099;
+}
+
+#nav li:hover {
+    cursor: pointer;
+    color: #21F5A8;
+}
+
+/*MAIN*/
+
+#fetec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+}
+
+#inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#fet {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 10px;
+    position: absolute;
+    max-width: 50vw;
+    margin-left: 10vw;
+    background-color: #f0f0f0;
+}
+
+#bgfetec img {
+    position: sticky;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+}
+
+#fetec a.button {
+    background-color: #0f0f0f;
+}
+
+/*ETEC*/
+
+#et {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40vw;
+}
+
+#etec a.button {
+    background-color: #0f0f0f;
+}
+
+#etec {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    width: 100vw;
+    height: 80vh;
+    background-color: #f0f0f0;  
+}
+
+#fotoetec {
+    border-radius: 5000px;
+    height: 50vh;
+}
+
+#exposicoes {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#exposicoes #div {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.ger {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ne a.button {
+    background-color: #0f0f0f;
+}
+
+.ne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+}
+
+/*FOOTER*/
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    background-color: #0f0f0f;
+    color: #f0f0f0;
+    height: 100px;
+}
